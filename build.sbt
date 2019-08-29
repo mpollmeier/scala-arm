@@ -116,7 +116,7 @@ val arm = project.in(file(".")).
     name := "scala-arm",
     scalaVersion := "2.13.0",
     crossScalaVersions := Seq(
-      "2.10.7", "2.11.12", scalaVersion.value, "2.13.0"),
+      "2.10.7", "2.11.12", "2.12.9", scalaVersion.value),
     resolvers += "java.net repo" at "http://download.java.net/maven/2/",
     libraryDependencies ++= Seq(
       "com.novocode" % "junit-interface" % "0.11" % Test,
