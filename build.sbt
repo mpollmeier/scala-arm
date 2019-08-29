@@ -112,9 +112,9 @@ lazy val websiteSettings: Seq[Setting[_]] = Seq(
 val arm = project.in(file(".")).
   enablePlugins(SiteScaladocPlugin).
   settings(Seq(
-    organization := "com.jsuereth",
+    organization := "com.michaelpollmeier",
     name := "scala-arm",
-    scalaVersion := "2.12.8",
+    scalaVersion := "2.13.0",
     crossScalaVersions := Seq(
       "2.10.7", "2.11.12", scalaVersion.value, "2.13.0"),
     resolvers += "java.net repo" at "http://download.java.net/maven/2/",
